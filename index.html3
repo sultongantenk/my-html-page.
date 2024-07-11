@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bucin Page</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #ffe6e6;
+      color: #ff4d4d;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+    p {
+      font-size: 1.5em;
+      margin-bottom: 1em;
+    }
+    .heart {
+      color: #ff1a1a;
+      font-size: 5em;
+      animation: beat 1s infinite;
+    }
+    @keyframes beat {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Bucin Forever</h1>
+  <p>Setiap detak jantungku hanyalah untukmu ❤️</p>
+  <p>Kamu adalah alasan aku tersenyum setiap hari 😊</p>
+  <p>Cintaku padamu seperti matematika, tidak ada batasnya ∞</p>
+  <div class="heart">❤️</div>
+</body>
+</html>
